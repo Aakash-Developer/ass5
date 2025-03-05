@@ -20,12 +20,12 @@ const getOrders = async () => {
   }
 };
 
-export interface ShoppingItem {
+interface ShoppingItem {
   item: string;
   quantity: number;
 }
 
-export interface Order {
+interface Order {
   _id: string;
   name: string;
   email: string;

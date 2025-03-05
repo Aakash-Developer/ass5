@@ -6,8 +6,8 @@ const Layout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <section className="h-screen  overflow-hidden p-2">
-      <div className=" ">{children}</div>
+    <section className=" p-2">
+      <div className="">{children}</div>
     </section>
   );
 };
